@@ -70,7 +70,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <FooterSection title="Company">
                 <li><FooterLink href="/about">About</FooterLink></li>
-                <li><FooterLink href="/team">Team</FooterLink></li>
+                <li><FooterLink href="/Team">Team</FooterLink></li>
                 <li><FooterLink href="/careers">Careers</FooterLink></li>
                 <li><FooterLink href="/blog">Blog</FooterLink></li>
               </FooterSection>
@@ -83,7 +83,7 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <FooterSection title="Community">
-                <li><FooterLink href="/events">Events</FooterLink></li>
+                <li><FooterLink href="/Events">Events</FooterLink></li>
                 <li><FooterLink href="/meetups">Meetups</FooterLink></li>
                 <li><FooterLink href="/forums">Forums</FooterLink></li>
                 <li><FooterLink href="/discord">Discord</FooterLink></li>
