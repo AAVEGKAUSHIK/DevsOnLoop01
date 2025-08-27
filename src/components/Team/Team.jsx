@@ -200,7 +200,7 @@ const TeamsPage = () => {
     Coordinators: [
       {
         name: 'Aaveg Kaushik',
-        role: 'Frontend Developer',
+        role: 'FullStack Developer',
         bio: 'Enthusiastic about React and modern JavaScript frameworks.',
         image: 'https://media.licdn.com/dms/image/v2/D5603AQF4ItaMDM7V9A/profile-displayphoto-shrink_400_400/B56ZeIilZhG0Ao-/0/1750342458649?e=1759363200&v=beta&t=DDmQ7F5nXuqsihTbZp_MMIafw-07KPK3p2IUnmgkZVw',
         github: 'https://github.com/AAVEGKAUSHIK',
