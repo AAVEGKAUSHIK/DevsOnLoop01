@@ -15,17 +15,17 @@ const SocialIcon = ({ icon: Icon, href }) => (
 
 const TeamMemberCard = ({ member }) => (
   <motion.div
-    className="bg-gray-800 rounded-lg overflow-hidden shadow-lg flex-shrink-0 w-64 mx-2"
-    whileHover={{ y: -5, boxShadow: '0 5px 20px rgba(139, 92, 246, 0.2)' }}
+    className="bg-gray-800 scrollbar-thumb-purple-500 scrollbar-track-gray-200 scrollbar-thin p-4 rounded-lg overflow-hidden shadow-lg flex-shrink-0 w-64 mx-2"
+    whileHover={{ y: -5, boxShadow: '0 5px 20px rgba(139, 92, 246, 0)' }}
     transition={{ type: 'spring', stiffness: 300 }}
   >
-    <div className="relative h-48 overflow-hidden">
+    <div className="relative items-center h-48 overflow-hidden">
       <img
         src={member.image}
         alt={member.name}
         className="w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t "></div>
     </div>
     <div className="p-4">
       <h3 className="text-lg font-semibold text-white mb-1">{member.name}</h3>
@@ -137,180 +137,116 @@ const TeamsPage = () => {
   const teamMembers = {
     coreTeam: [
       {
-        name: 'Jane Doe',
+        name: 'Kapil Gautam',
         role: 'Lead Developer',
         bio: 'Full-stack developer with 5+ years of experience in web technologies.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
-        twitter: 'https://twitter.com',
-        portfolio: 'https://janedoe.com',
-      },
-      {
-        name: 'John Smith',
-        role: 'UI/UX Designer',
-        bio: 'Passionate about creating intuitive and beautiful user interfaces.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
-        instagram: 'https://instagram.com',
-      },
-      {
-        name: 'Alice Johnson',
-        role: 'Project Manager',
-        bio: 'Experienced in leading agile teams and delivering successful projects.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
-        twitter: 'https://twitter.com',
-      },
-      {
-        name: 'Bob Wilson',
-        role: 'Backend Specialist',
-        bio: 'Expert in scalable architecture and database optimization.',
-        image: '/placeholder.svg?height=200&width=200',
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-      },
-      {
-        name: 'Emma Davis',
-        role: 'DevOps Engineer',
-        bio: 'Specializes in CI/CD pipelines and cloud infrastructure.',
-        image: '/placeholder.svg?height=200&width=200',
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-      },
-      {
-        name: 'Michael Chen',
-        role: 'Mobile Developer',
-        bio: 'Experienced in developing cross-platform mobile applications.',
-        image: '/placeholder.svg?height=200&width=200',
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
-      },
-      {
-        name: 'Sophia Rodriguez',
-        role: 'Data Scientist',
-        bio: 'Expert in machine learning and data analysis techniques.',
-        image: '/placeholder.svg?height=200&width=200',
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/kapilsir.jpeg',
+        linkedin: 'https://www.linkedin.com/in/kapil-gautam52/',
+        github: 'https://github.com/Kapil-gautam',
+        twitter: '',
+        portfolio: '',
       },
     ],
     mentors: [
       {
-        name: 'Dr. Robert Brown',
-        role: 'Senior Software Architect',
-        bio: '20+ years of experience in software architecture and system design.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
+        name: 'Nikhil Kesarwani',
+        role: 'Assistant Mentor',
+        bio: '2+ years of experience in App Development.',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/nikhil.png',
+        linkedin: 'https://www.linkedin.com/in/nikhilkesarwani111/',
+        github: 'https://github.com/Nikhil-kesarwani111',
       },
       {
-        name: 'Emily Chen',
+        name: 'Prajjwal Jaiswal',
         role: 'Data Science Mentor',
         bio: 'Specializes in machine learning and data analytics.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://media.licdn.com/dms/image/v2/D5603AQEZiIfV5hor3Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725282785840?e=1759363200&v=beta&t=08F77uv-I6ketgXcnkqtwrLp5Gsk88qFlbVUBaZELj8',
+        linkedin: 'https://www.linkedin.com/in/prajjwal-jaiswal-452381224/',
         twitter: 'https://twitter.com',
       },
       {
-        name: 'Michael Lee',
+        name: 'Vineet Singh',
         role: 'Cybersecurity Expert',
         bio: 'Focuses on web application security and ethical hacking.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/Vineet%20Singh.jpg',
+        linkedin: 'https://www.linkedin.com/in/vineet-singh021/',
         github: 'https://github.com',
       },
       {
-        name: 'Sarah Thompson',
+        name: 'Harsh Kushwaha',
         role: 'UX Research Mentor',
         bio: 'Specializes in user research and usability testing methodologies.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/1000056685-01%20(1)%20-%20Harsh%20Kumar%20Kushwaha.jpeg',
+        linkedin: 'https://www.linkedin.com/in/harsh-kumar-kushwaha-a67338203/',
         portfolio: 'https://sarahthompson.com',
       },
       {
-        name: 'David Garcia',
+        name: 'Shreya Pal',
         role: 'Cloud Architecture Mentor',
         bio: 'Expert in designing scalable and resilient cloud infrastructures.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://media.licdn.com/dms/image/v2/D5603AQFUio6ctpIdEQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720207929896?e=1759363200&v=beta&t=502-YqYWnpVs2WCsSa3SCTq-tbc4TKeqlvOP553msnY',
+        linkedin: 'https://www.linkedin.com/in/shreya-pal-43876b25b/',
         github: 'https://github.com',
       },
       {
-        name: 'Lisa Wong',
+        name: 'Anjali V.P. Upadhyay',
         role: 'Agile Coach',
         bio: 'Helps teams implement and optimize agile methodologies.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/Anjali%20Upadhyay.jpeg',
+        linkedin: 'https://www.linkedin.com/in/anjali-upadhyay-721435268/',
         twitter: 'https://twitter.com',
       },
     ],
-    members: [
+    Coordinators: [
       {
-        name: 'Sarah Davis',
+        name: 'Aaveg Kaushik',
         role: 'Frontend Developer',
         bio: 'Enthusiastic about React and modern JavaScript frameworks.',
-        image: '/placeholder.svg?height=200&width=200',
-        github: 'https://github.com',
+        image: 'https://media.licdn.com/dms/image/v2/D5603AQF4ItaMDM7V9A/profile-displayphoto-shrink_400_400/B56ZeIilZhG0Ao-/0/1750342458649?e=1759363200&v=beta&t=DDmQ7F5nXuqsihTbZp_MMIafw-07KPK3p2IUnmgkZVw',
+        github: 'https://github.com/AAVEGKAUSHIK',
+        linkedin: 'https://www.linkedin.com/in/aavegkaushik/',
         portfolio: 'https://sarahdavis.com',
       },
       {
-        name: 'Tom Wilson',
+        name: 'Dhruv Tandon',
         role: 'Backend Developer',
         bio: 'Experienced in Node.js and database management.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/DhruvTandon.jpg',
+        linkedin: 'https://www.linkedin.com/in/dhruv-tandon-6b65192ab/',
         github: 'https://github.com',
       },
       {
-        name: 'Lisa Anderson',
-        role: 'Mobile App Developer',
-        bio: 'Skilled in developing cross-platform mobile applications.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        name: 'Anmol Varshney',
+        role: 'Video Editor',
+        bio: 'Experienced in Video Editing.',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/anmol.jpg',
+        linkedin: 'https://www.linkedin.com/in/dhruv-tandon-6b65192ab/',
+        github: 'https://github.com',
+      },
+      {
+        name: 'Pranjali Gupta',
+        role: 'Content Writer',
+        bio: 'Skilled in Write Content for every event post for various Social Media Handles.',
+        image: 'https://media.licdn.com/dms/image/v2/D4E03AQF40KXUVJtfNA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718253646642?e=1759363200&v=beta&t=K052kEBnY-w0F5NmvoMG5Yq6out7rOQlDZxFroHQn5I',
+        linkedin: 'https://www.linkedin.com/in/pranjali-gupta-1b9446309/',
         github: 'https://github.com',
         twitter: 'https://twitter.com',
       },
       {
-        name: 'David Kim',
+        name: 'Sumit Kumar Thakur',
         role: 'DevOps Engineer',
         bio: 'Passionate about automating deployment processes and improving system reliability.',
-        image: '/placeholder.svg?height=200&width=200',
+        image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/Sumit.jpg',
         github: 'https://github.com',
         linkedin: 'https://linkedin.com',
       },
       {
-        name: 'Emma Roberts',
+        name: 'Naincy Shivhare',
         role: 'UI Designer',
         bio: 'Creative designer with a keen eye for user-centric interfaces.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
+        image: 'https://media.licdn.com/dms/image/v2/D4E03AQFtB5bJlfvWUw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716386313202?e=1759363200&v=beta&t=G30M_HZlt6PtjRgl92ibmepAgO_dT3LW35xdV2Ymi5A',
+        linkedin: 'https://www.linkedin.com/in/naincy-shivhare-376492272/',
         portfolio: 'https://emmaroberts.design',
-      },
-      {
-        name: 'Alex Johnson',
-        role: 'Data Analyst',
-        bio: 'Skilled in data visualization and statistical analysis.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
-      },
-      {
-        name: 'Olivia Martinez',
-        role: 'QA Specialist',
-        bio: 'Ensures high-quality software through rigorous testing methodologies.',
-        image: '/placeholder.svg?height=200&width=200',
-        linkedin: 'https://linkedin.com',
-        github: 'https://github.com',
-      },
-      {
-        name: 'Ryan Patel',
-        role: 'Blockchain Developer',
-        bio: 'Passionate about decentralized technologies and smart contracts.',
-        image: '/placeholder.svg?height=200&width=200',
-        github: 'https://github.com',
-        linkedin: 'https://linkedin.com',
       },
     ],
   };
@@ -348,8 +284,8 @@ const TeamsPage = () => {
           ))}
         </ScrollableSection>
 
-        <ScrollableSection title="Members">
-          {teamMembers.members.map((member, index) => (
+        <ScrollableSection title="Coordinators">
+          {teamMembers.Coordinators.map((member, index) => (
             <TeamMemberCard key={index} member={member} />
           ))}
         </ScrollableSection>

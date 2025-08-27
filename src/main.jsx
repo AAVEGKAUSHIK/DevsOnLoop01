@@ -8,6 +8,8 @@ import TeamsPage from './components/Team/Team.jsx'
 import EventPage from './components/Events/Events.jsx'
 import ContactPage from './components/Contact/Contact.jsx'
 import AnnouncementPage from './components/Announcement/Announcement.jsx'
+import ResourcesSection from './components/LearningResources/LearningResources.jsx'
+import ErrorPage from './components/ErrorPage/ErrorPage.jsx'
 
 const router = createBrowserRouter([
     {
@@ -19,7 +21,7 @@ const router = createBrowserRouter([
           element: <HeroSection />
         },
         {
-          path: 'Home',
+          path: '/',
           element: <HeroSection />
         },
         {
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
           path: 'Announcement',
           element: <AnnouncementPage />
         },
+        {
+          path: 'LearningResources',
+          element: < ResourcesSection/>
+        },
+        {
+          path: '*',
+          element: < ErrorPage/>
+        }
       ]
     }
   ])

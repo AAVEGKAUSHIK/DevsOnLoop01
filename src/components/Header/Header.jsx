@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/loop.png'
 import { MenuIcon, XIcon, FileText } from 'lucide-react';
 
 const Button = React.forwardRef(({ className, variant, size, asChild = false, ...props }, ref) => {
@@ -56,17 +57,19 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-gray-700 bg-gray-900 bg-opacity-95 backdrop-blur">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <div className="flex items-center">
+          <div className="flex p-2 m-2 items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="font-bold text-2xl text-purple-400">DevsOnLoop</span>
+              <img src={Logo} className='h-20' alt="" />
             </Link>
           </div>
           <nav className="hidden md:flex md:flex-1 md:justify-center items-center space-x-2">
-            <NavButton to="/Home">Home</NavButton>
+            <NavButton to="/">Home</NavButton>
             <NavButton to="/Team">Team</NavButton>
             <NavButton to="/Events">Events</NavButton>
             <NavButton to="/Contact">Contact</NavButton>
             <NavButton to="/Announcement">Announcement</NavButton>
+            <NavButton to="/LearningResources">Learning Resources</NavButton>
+            
           </nav>
           <div className="hidden md:flex items-center space-x-2">
             <Button
@@ -100,6 +103,7 @@ export default function Header() {
             <NavButton to="/Events">Events</NavButton>
             <NavButton to="/Contact">Contact</NavButton>
             <NavButton to="/Announcement">Announcement</NavButton>
+            <NavButton to="/LearningResources">Learning Resources</NavButton>
             <Button
               variant="coc"
               size="sm"

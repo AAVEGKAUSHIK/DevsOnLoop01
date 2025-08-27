@@ -237,7 +237,7 @@ const ImprovedDevsOnLoop = () => {
         },
         { 
           title: 'Mission Statement', 
-          description: 'Defined our goal to foster collaboration and innovation in web development.',
+          description: 'Defined our goal to foster collaboration and innovation in web & App development.',
           icon: <Rocket size={24} />
         },
       ],
@@ -343,27 +343,27 @@ const ImprovedDevsOnLoop = () => {
     {
       title: 'Campus Connect',
       description: 'A social platform for college events and activities.',
-      image: '/placeholder.svg?height=300&width=400',
+      image: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     {
       title: 'Study Buddy AI',
       description: 'AI-powered study assistant for personalized learning.',
-      image: '/placeholder.svg?height=300&width=400',
+      image: 'https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
       title: 'EcoTrack',
       description: 'Mobile app for tracking and reducing carbon footprint.',
-      image: '/placeholder.svg?height=300&width=400',
+      image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
       title: 'Code Mentor',
       description: 'Platform connecting coding mentors with students.',
-      image: '/placeholder.svg?height=300&width=400',
+      image: 'https://plus.unsplash.com/premium_photo-1682130138138-070e8f7a4fd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
       title: 'Virtual Hackathon',
       description: 'Online platform for organizing and participating in hackathons.',
-      image: '/placeholder.svg?height=300&width=400',
+      image: 'https://plus.unsplash.com/premium_photo-1663040543387-cb7c78c4f012?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   ];
 
@@ -372,19 +372,19 @@ const ImprovedDevsOnLoop = () => {
       title: "Join the Future of Web Development",
       description: "Collaborate, Learn, and Create with Peers at DevsOnLoop",
       buttonText: "Join Us",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg",
     },
     {
       title: "Upcoming Hackathon",
       description: "Get ready for our 24-hour coding challenge",
       buttonText: "Register Now",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "https://www.kreativdistrikt.com/wp-content/uploads/2024/02/The-Art-of-Successful-Hackathon-Management.webp",
     },
     {
       title: "Open Source Projects",
       description: "Contribute to real-world projects and gain experience",
       buttonText: "Explore Projects",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "https://onlim.com/wp-content/uploads/Open-Source.jpg",
     },
   ];
 
@@ -449,10 +449,10 @@ const ImprovedDevsOnLoop = () => {
 
           <ScrollableSection title="Testimonials">
             {[
-              { name: "Alex Johnson", role: "Computer Science Student", quote: "DevsOnLoop has been instrumental in my growth as a developer. The community and resources are unparalleled." },
-              { name: "Samantha Lee", role: "Recent Graduate", quote: "Thanks to the connections I made through DevsOnLoop, I landed my dream job right out of college!" },
-              { name: "Michael Chen", role: "Junior Developer", quote: "The mentorship program at DevsOnLoop gave me the confidence to tackle complex projects and accelerate my career." },
-              { name: "Emily Rodriguez", role: "Bootcamp Graduate", quote: "DevsOnLoop's workshops filled the gaps in my coding knowledge and helped me transition into tech smoothly." },
+              { name: "Mayank Trivedi", role: "Computer Science Student", quote: "DevsOnLoop has been instrumental in my growth as a developer. The community and resources are unparalleled." },
+              { name: "Pallavi Yadav", role: "Information Technology Student", quote: "Thanks to the connections I made through DevsOnLoop, I landed my dream job right out of college!" },
+              { name: "Anushka", role: "Chemical Engineering Student", quote: "The mentorship program at DevsOnLoop gave me the confidence to tackle complex projects and accelerate my career." },
+              { name: "Deepanshu Chauhan", role: "Computer Science Student", quote: "DevsOnLoop's workshops filled the gaps in my coding knowledge and helped me transition into tech smoothly." },
             ].map((testimonial, index) => (
               <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md flex-shrink-0 w-80">
                 <p className="text-gray-300 mb-4">"{testimonial.quote}"</p>

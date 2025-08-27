@@ -116,7 +116,7 @@ const EventPage = () => {
         date: 'August 15, 2024',
         time: '2:00 PM - 5:00 PM',
         location: 'Virtual (Zoom)',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         description: 'Join us for an intensive workshop on modern web development techniques and best practices.',
         speakers: [
           { name: 'Jane Doe', image: '/placeholder.svg?height=100&width=100' },
@@ -136,7 +136,7 @@ const EventPage = () => {
         date: 'September 5, 2024',
         time: '3:00 PM - 6:00 PM',
         location: 'Tech Hub Auditorium',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://plus.unsplash.com/premium_photo-1705267936187-aceda1a6c1a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         description: 'Explore the integration of AI technologies in modern web applications.',
         speakers: [
           { name: 'Alice Johnson', image: '/placeholder.svg?height=100&width=100' },
@@ -156,7 +156,7 @@ const EventPage = () => {
         date: 'October 10-12, 2024',
         time: 'All Day',
         location: 'University Campus',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://images.unsplash.com/photo-1640163561346-7778a2edf353?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         description: 'A 48-hour coding challenge to build innovative solutions for future technologies.',
         speakers: [
           { name: 'Eva Brown', image: '/placeholder.svg?height=100&width=100' },
@@ -176,7 +176,7 @@ const EventPage = () => {
         date: 'November 20, 2024',
         time: '1:00 PM - 4:00 PM',
         location: 'Innovation Center',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://images.unsplash.com/photo-1517292987719-0369a794ec0f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         description: 'Learn to build cross-platform mobile apps using React Native.',
         speakers: [
           { name: 'Sarah Davis', image: '/placeholder.svg?height=100&width=100' },
@@ -198,10 +198,10 @@ const EventPage = () => {
         date: 'May 20, 2024',
         time: '2:00 PM - 5:00 PM',
         location: 'Online',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png',
         description: 'A comprehensive course covering the basics of JavaScript programming.',
         speakers: [
-          { name: 'Emily Chen', image: '/placeholder.svg?height=100&width=100' },
+          { name: 'Kapil Gautam', image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/kapilsir.jpeg' },
         ],
         agenda: [
           'Variables and data types',
@@ -217,10 +217,10 @@ const EventPage = () => {
         date: 'June 15, 2024',
         time: '10:00 AM - 1:00 PM',
         location: 'Design Studio',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-mg6_tCwzLx6EeZGA_HaBZqRNLlKKyxWSFw&s',
         description: 'Learn the fundamental principles of creating user-friendly interfaces.',
         speakers: [
-          { name: 'Olivia Taylor', image: '/placeholder.svg?height=100&width=100' },
+          { name: 'Kapil Gautam', image: 'https://innovanza.iicbietjhs.in/2024Event_template/temp/assets/images/kapilsir.jpeg' },
         ],
         agenda: [
           'Introduction to UI/UX design',
@@ -236,10 +236,11 @@ const EventPage = () => {
         date: 'July 5, 2024',
         time: '3:00 PM - 6:00 PM',
         location: 'Computer Science Building',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://repository-images.githubusercontent.com/354254077/bce9404a-5a1c-491c-b778-ee99c018b00e',
         description: 'An in-depth look at essential data structures and algorithms for efficient programming.',
         speakers: [
-          { name: 'Dr. Alan Turing', image: '/placeholder.svg?height=100&width=100' },
+          { name: 'Rohit Shankar Sinha', image: 'https://media.licdn.com/dms/image/v2/D4D03AQEObRT2cBxl7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1691423610721?e=1759363200&v=beta&t=Vpy8aGd9QhD8AEoMFWRDnbSSThUVy3vOHKXoitM4Rss' },
+          { name: 'Ritik Rathor', image: 'https://media.licdn.com/dms/image/v2/D5603AQGEOCNRBwE2Rg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729781575587?e=1738800000&v=beta&t=y3yfzPWYcUWgWYEusDl7FRRwQnMtW14AQhXBpCV0Yi0' }
         ],
         agenda: [
           'Arrays and linked lists',
@@ -255,10 +256,10 @@ const EventPage = () => {
         date: 'July 25, 2024',
         time: '2:00 PM - 5:00 PM',
         location: 'Virtual (Discord)',
-        image: '/placeholder.svg?height=200&width=400',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxVa4mfyX7Vrwibz0kjUvTutXCQsY8x5PTIU2SuaBTglWhjdYRS5DdX_WcJPQzxAo6Uv8&usqp=CAU',
         description: 'Learn how to contribute to open source projects and collaborate with developers worldwide.',
         speakers: [
-          { name: 'Linus Torvalds', image: '/placeholder.svg?height=100&width=100' },
+          { name: 'Dhruv Agrawal', image: 'https://media.licdn.com/dms/image/v2/D4D03AQEqpK2Od1d-cw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1704341287905?e=1759363200&v=beta&t=sUh0kQnlK89T0dsa7qyL_kw_b0uJ1sT0YTGVwnDEAeg' },
         ],
         agenda: [
           'Introduction to open source',

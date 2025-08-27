@@ -149,11 +149,11 @@ export default function ContactPage() {
             <div className="space-y-6">
               <div className="flex items-center">
                 <MapPin className="h-6 w-6 text-purple-400 mr-3" />
-                <span>123 Dev Street, Tech City, 12345</span>
+                <span>Innovation and Incubation Center, BIET Jhansi (284128), Uttar Pradesh, India </span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-6 w-6 text-purple-400 mr-3" />
-                <span>+1 (123) 456-7890</span>
+                <span>+91-6396864741</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-6 w-6 text-purple-400 mr-3" />
@@ -162,14 +162,13 @@ export default function ContactPage() {
             </div>
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4 flex items-center text-purple-400">
-                <Linkedin className="mr-2 h-5 w-5" />
                 Follow Us
               </h3>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-300 hover:text-purple-400 transition-colors">
                   <Github className="h-6 w-6" />
                 </a>
-                <a href="#" className="text-gray-300 hover:text-purple-400 transition-colors">
+                <a href="https://www.linkedin.com/company/devsonloopclub" target='_blank' className="text-gray-300 hover:text-purple-400 transition-colors">
                   <Linkedin className="h-6 w-6" />
                 </a>
                 <a href="#" className="text-gray-300 hover:text-purple-400 transition-colors">
